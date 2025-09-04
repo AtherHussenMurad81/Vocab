@@ -123,15 +123,15 @@ const displyLevelWord = (words) => {
         } / ${
       word.pronunciation ? word.pronunciation : "Pronunciation পাওয়া যায় নি"
     }</div>
-        <div class="flex justify-between items-center">
+     <div class="flex justify-between items-center">
           <button onclick="loadWordDetail(${
             word.id
-          })" class="btn bg-[#1A9aFF10] hover:bg-[#1A9aFF90]">
+          })" class="btn bg-[#1A91FF10] hover:bg-[#1A91FF80]">
             <i class="fa-solid fa-circle-info"></i>
           </button>
-          <button onclick="pronounceWord(${
+          <button onclick="pronounceWord('${
             word.word
-          })" class="btn bg-[#1A9aFF10] hover:bg-[#1A9aFF90]">
+          }')" class="btn bg-[#1A91FF10] hover:bg-[#1A91FF80]">
             <i class="fa-solid fa-volume-high"></i>
           </button>
         </div>
